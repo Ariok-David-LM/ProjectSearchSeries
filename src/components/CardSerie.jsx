@@ -9,7 +9,7 @@ const CardSerie = ({ show }) => {
             {show.name}
           </h4>
         </div>
-        <img src={show?.image?.medium === undefined ? '../assets/img/NoImg.png' : `${show?.image?.medium}`} alt={`${show.name}`} width='265px' />
+        <img src={show?.image?.medium === undefined ? '../ProjectSearchSeries/assets/img/NoImg.png' : `${show?.image?.medium}`} alt={`${show.name}`} width='265px' />
       </div>
     </Link>
   )
