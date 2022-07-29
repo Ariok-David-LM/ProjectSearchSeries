@@ -5,7 +5,7 @@ const InfoSerie = ({ data }) => {
       <div className='container-fluid text-center fs-2 text-success mb-3'>{data.name}</div>
       <div className='container-fluid d-sm-flex px-0'>
         <div className='container-fluid d-flex flex-column pe-sm-4 mx-0 p-0 col-sm-3 col-12'>
-          <img src={data?.image?.medium === undefined ? '../assets/img/NoImg.png' : `${data?.image?.medium}`} alt='serie' />
+          <img src={data?.image?.medium === undefined ? '/ProjectSearchSeries/assets/img/NoImg.png' : `${data?.image?.medium}`} alt='serie' />
           <button type='button' className={`btn btn-${data.status === 'Ended' ? 'danger' : 'success'} disabled mt-2`}>{data.status}</button>
         </div>
         <div className='container-fluid d-flex flex-column mt-sm-0 mt-3 col-sm-9 col-12 text-info' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', borderRadius: '20px' }}>
