@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src='/ProjectSearchSeries/assets/img/television-inteligente.png' alt='Logo' width='20%' />
         </div>
         <div className='d-flex justify-content-center col-6'>
-          <NavLink className='navbar-brand' to='/'>
+          <NavLink className='navbar-brand' to='/ProjectSearchSeries/'>
             <h1 className='fs-2'>Info Series</h1>
           </NavLink>
         </div>

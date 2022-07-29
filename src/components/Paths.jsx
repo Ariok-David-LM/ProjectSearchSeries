@@ -15,7 +15,7 @@ const Paths = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setQuery(searchRef.current.value)
-    navigate('/')
+    navigate('/ProjectSearchSeries/')
   }
 
   return (
