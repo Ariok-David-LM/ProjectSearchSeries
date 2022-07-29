@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
       <div className='container-fluid d-flex justify-content-center'>
         <div className='col-3 d-flex justify-content-center'>
-          <img src='../src/assets/img/television-inteligente.png' alt='Logo' width='20%' />
+          <img src='../assets/img/television-inteligente.png' alt='Logo' width='20%' />
         </div>
         <div className='d-flex justify-content-center col-6'>
           <NavLink className='navbar-brand' to='/'>
@@ -14,7 +14,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className='col-3 d-flex justify-content-center'>
-          <img src='../src/assets/img/pelicula.png' alt='Logo' width='20%' />
+          <img src='../assets/img/pelicula.png' alt='Logo' width='20%' />
         </div>
       </div>
     </nav>
