@@ -25,14 +25,14 @@ const Paths = () => {
         <div className='col-10'>
           <div className='input-group'>
             <input ref={searchRef} type='text' className='form-control' placeholder='Buscar series por nombre....' aria-label='Buscar' aria-describedby='button-addon2' />
-            <Link to='/'>
+            <Link to='/ProjectSearchSeries/'>
               <button onClick={handleSubmit} className='btn btn-primary' type='button' id='button-addon2'>Buscar</button>
             </Link>
           </div>
         </div>
       </div>
       <Routes>
-        <Route path='/' element={<Outlet />}>
+        <Route path='/ProjectSearchSeries/' element={<Outlet />}>
           <Route index element={<Home series={series} loading={loading} />} />
           <Route path=':id' element={<Serie />} />
         </Route>
